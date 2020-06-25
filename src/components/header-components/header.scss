@@ -1,0 +1,29 @@
+.header-container{
+   height: auto;
+   display: flex;
+   justify-content: space-between;
+   box-shadow: 4px 4px 8px 0px rgba(205, 208, 210, 0.8);
+ 
+ .logo-contaner{
+   background-color:transparent;
+   justify-content: flex-start;
+   } 
+    
+.butn-container{
+    margin-right: 30px;
+    justify-content: flex-end;
+    cursor: pointer;
+             
+.buttn-ico{
+ border: white;
+ background-color:transparent;
+ cursor: pointer;
+ box-shadow: 3px 3px 12px 0px rgba(240, 240, 240, 0.564);
+ }
+}
+
+.logo-img{
+    height: 50px;
+    margin-left: 20px;
+}
+}

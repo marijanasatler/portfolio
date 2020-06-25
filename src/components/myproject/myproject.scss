@@ -1,0 +1,78 @@
+.project-container{
+    -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+    animation: neon2 1.5s ease-in-out infinite alternate;
+  
+}
+.project-list{
+height: auto;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding-top: 1%;
+padding-bottom: 1%;
+ 
+.project{
+margin: 2%;
+margin-left:35px;
+color: white;
+    
+.background-image {
+width:200px;
+height: 200px;
+cursor: pointer;
+transition: all 1s;
+overflow: hidden;
+border-bottom: solid white 1px;
+border-right: solid white 1px;        
+box-shadow: 4px 4px 8px 0px rgba(205, 208, 210, 0.8);} 
+-webkit-transition-duration: 0.2s; /* Safari */
+transition-duration: 0.2s;
+     }
+.background-image:hover {
+background-color: white;
+opacity: 80%;
+ }
+   
+a{
+color: white;
+text-decoration: none;
+cursor: pointer;
+font-size: 30px;
+}
+
+
+}
+@-webkit-keyframes neon2 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px  rgb(96, 208, 242), 0 0 70px rgb(96, 208, 242), 0 0 80px  rgb(96, 208, 242), 0 0 100px  rgb(96, 208, 242), 0 0 150px  rgb(96, 208, 242);
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px rgb(96, 208, 242), 0 0 35px rgb(96, 208, 242), 0 0 40px rgb(96, 208, 242), 0 0 50px rgb(96, 208, 242), 0 0 75px rgb(96, 208, 242);
+    }
+  }
+  @-moz-keyframes neon2 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px  rgb(96, 208, 242), 0 0 70px rgb(96, 208, 242), 0 0 80px  rgb(96, 208, 242), 0 0 100px  rgb(96, 208, 242), 0 0 150px  rgb(96, 208, 242);
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px rgb(96, 208, 242), 0 0 35px rgb(96, 208, 242), 0 0 40px rgb(96, 208, 242), 0 0 50px rgb(96, 208, 242), 0 0 75px rgb(96, 208, 242);
+    }
+  }
+  @keyframes neon2 {
+    from {
+      text-shadow:0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px  rgb(96, 208, 242), 0 0 70px rgb(96, 208, 242), 0 0 80px  rgb(96, 208, 242), 0 0 100px  rgb(96, 208, 242), 0 0 150px  rgb(96, 208, 242);
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px rgb(96, 208, 242), 0 0 35px rgb(96, 208, 242), 0 0 40px rgb(96, 208, 242), 0 0 50px rgb(96, 208, 242), 0 0 75px rgb(96, 208, 242);
+    }
+  }
+
+  @media (max-width: 650px) {
+  #container {
+    width: 100%;
+  }
+  li {
+    font-size: 3.5em;
+  }}

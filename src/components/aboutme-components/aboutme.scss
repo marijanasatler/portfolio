@@ -1,0 +1,26 @@
+.ab-me{
+color: white; 
+}
+.abm-cont{
+display: flex;
+flex-direction: row;
+margin-left: 8%;
+margin-right: 8%;
+margin-top: 2%; 
+}
+    
+.im-pro{
+width: 200px;
+height: 200px;
+display: block;
+border-radius: 50%;
+padding-left: 1%;
+-webkit-filter: sepia(1);
+filter: sepia(1);
+filter: drop-shadow(16px 16px 20px rgba(205, 208, 210, 0.8)) ;
+}
+   
+.text-cont{
+ text-align: left;
+ filter: drop-shadow(26px 26px 16px rgba(205, 208, 210, 0.8)) ;
+   }
