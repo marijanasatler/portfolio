@@ -11,3 +11,11 @@
     font-weight: normal;
     src: local('Walt Disney Script Regular'), url('wds052801.woff') format('woff');
     }
+
+    .icon-footer{
+      color:lightgray;
+      text-decoration: none;
+    text-align: right;
+    margin-right: 1%;
+    font-size: 20px;
+    }
